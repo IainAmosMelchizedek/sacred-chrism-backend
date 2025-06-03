@@ -1,0 +1,30 @@
+
+{
+  "name": "sacred-chrism-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Sacred Chrism app - handles Stripe payments and PDF delivery",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "stripe": "^12.9.0",
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^1.4.0",
+    "micro": "^10.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "stripe",
+    "webhook",
+    "sendgrid",
+    "microsoft-graph",
+    "sacred-chrism"
+  ],
+  "author": "Iain Melchizedek",
+  "license": "MIT"
+}
