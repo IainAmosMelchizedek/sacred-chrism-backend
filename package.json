@@ -1,13 +1,10 @@
-
 {
   "name": "sacred-chrism-backend",
   "version": "1.0.0",
   "description": "Backend API for Sacred Chrism app - handles Stripe payments and PDF delivery",
   "main": "index.js",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel build",
-    "deploy": "vercel --prod"
+    "build": "echo 'No build step required for serverless functions'"
   },
   "dependencies": {
     "stripe": "^12.9.0",
